@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="etri.etriopenasr"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:7:22-63
+14    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+14-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:8:5-75
+14-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:8:22-72
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+15-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:10:5-71
+16-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:11:5-68
+17-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:12:5-74
+18-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:12:22-71
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- queries에 카카오톡 패키지 추가 -->
+20-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:14:5-81
+20-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:14:22-78
+21
+22    <queries>
+22-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:16:5-18:15
+23        <package android:name="com.kakao.talk" />
+23-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:17:9-50
+23-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:17:18-47
+24    </queries>
+25
+26    <application
+26-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:19:5-56:19
+27        android:name="etri.etriopenasr.GlobalApplication"
+27-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:21:9-42
+28        android:allowBackup="true"
+28-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:22:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0-alpha04] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\4634c3dd483fdfe9d11395006a8fc280\core-1.5.0-alpha04\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:23:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:24:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:25:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:26:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme"
+36-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:27:9-40
+37        android:usesCleartextTraffic="true" >
+37-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:28:9-44
+38        <activity android:name="etri.etriopenasr.LoginActivity" />
+38-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:29:9-60
+38-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:29:19-48
+39        <activity
+39-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:31:9-52:20
+40            android:name="etri.etriopenasr.SplashActivity"
+40-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:32:13-43
+41            android:theme="@style/SplashTheme" >
+41-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:33:13-47
+42            <intent-filter>
+42-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:34:13-38:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:35:17-69
+43-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:35:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:37:17-77
+45-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:37:27-74
+46            </intent-filter>
+47            <intent-filter>
+47-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:39:13-51:29
+48                <action android:name="android.intent.action.VIEW" />
+48-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:40:17-69
+48-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:40:25-66
+49
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:42:17-76
+50-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:42:27-73
+51                <category android:name="android.intent.category.BROWSABLE" />
+51-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:43:17-78
+51-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:43:27-75
+52
+53                <data
+53-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:45:17-47:61
+54                    android:host="@string/kakaolink_host"
+54-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:46:21-58
+55                    android:scheme="@string/kakao_scheme" />
+55-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:47:21-58
+56                <data
+56-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:45:17-47:61
+57                    android:host="oauth"
+57-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:46:21-58
+58                    android:scheme="@string/kakao_scheme" />
+58-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:47:21-58
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="etri.etriopenasr.MainActivity" >
+61-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:54:9-55:20
+61-->C:\Users\jjnet\AndroidStudioProjects\EtriOpenASRV1.01\EtriOpenASRV1.0\EtriOpenASR\app\src\main\AndroidManifest.xml:54:19-47
+62        </activity>
+63        <activity
+63-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:12:9-16:56
+64            android:name="com.kakao.sdk.auth.TalkAuthCodeActivity"
+64-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:13:13-67
+65            android:exported="false"
+65-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:14:13-37
+66            android:launchMode="singleTask"
+66-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:15:13-44
+67            android:theme="@style/TransparentCompat" />
+67-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:16:13-53
+68        <activity
+68-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:17:9-20:56
+69            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+69-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:18:13-70
+70            android:launchMode="singleTask"
+70-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:19:13-44
+71            android:theme="@style/TransparentCompat" />
+71-->[com.kakao.sdk:v2-auth:2.0.3] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\11fa3ab32954fc9eae8ba46ab5e5590b\jetified-v2-auth-2.0.3\AndroidManifest.xml:20:13-53
+72        <activity
+72-->[com.kakao.sdk:auth:1.28.0] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\bc31f0b9301bc3b7b8aae777d736b444\jetified-auth-1.28.0\AndroidManifest.xml:12:9-19:20
+73            android:name="com.kakao.auth.authorization.authcode.KakaoWebViewActivity"
+73-->[com.kakao.sdk:auth:1.28.0] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\bc31f0b9301bc3b7b8aae777d736b444\jetified-auth-1.28.0\AndroidManifest.xml:13:13-86
+74            android:configChanges="orientation|screenSize"
+74-->[com.kakao.sdk:auth:1.28.0] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\bc31f0b9301bc3b7b8aae777d736b444\jetified-auth-1.28.0\AndroidManifest.xml:14:13-59
+75            android:exported="false"
+75-->[com.kakao.sdk:auth:1.28.0] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\bc31f0b9301bc3b7b8aae777d736b444\jetified-auth-1.28.0\AndroidManifest.xml:15:13-37
+76            android:label="@string/com_kakao_login_button"
+76-->[com.kakao.sdk:auth:1.28.0] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\bc31f0b9301bc3b7b8aae777d736b444\jetified-auth-1.28.0\AndroidManifest.xml:16:13-59
+77            android:launchMode="singleTop"
+77-->[com.kakao.sdk:auth:1.28.0] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\bc31f0b9301bc3b7b8aae777d736b444\jetified-auth-1.28.0\AndroidManifest.xml:17:13-43
+78            android:windowSoftInputMode="adjustResize" >
+78-->[com.kakao.sdk:auth:1.28.0] C:\Users\jjnet\.gradle\caches\transforms-2\files-2.1\bc31f0b9301bc3b7b8aae777d736b444\jetified-auth-1.28.0\AndroidManifest.xml:18:13-55
+79        </activity>
+80    </application>
+81
+82</manifest>

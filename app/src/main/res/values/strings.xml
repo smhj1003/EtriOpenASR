@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">EtriOpenASR</string>
+    <string name="app_name">EtriOpenASR2</string>
+    <string name="client_id">9a73bfe1-e57e-4e30-833e-dc469281215c</string>
+    <string name="etri_openasr_n_nhttp_www_etri_re_kr">ETRI OpenASR\n\nhttp://www.etri.re.kr</string>
+    <string name="kakao_app_key">0ec29dc78d07aa941ad18dbecc6f5a86</string>
+    <string name="kakao_scheme">kakao0ec29dc78d07aa941ad18dbecc6f5a86</string>
+    <string name="kakaolink_host">kakaolink_host</string>
 </resources>

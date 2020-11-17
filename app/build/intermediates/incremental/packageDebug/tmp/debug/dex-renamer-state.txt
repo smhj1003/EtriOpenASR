@@ -1,0 +1,7 @@
+#Wed Nov 11 15:14:52 KST 2020
+base.0=C\:\\Users\\jjnet\\AndroidStudioProjects\\EtriOpenASRV1.01\\EtriOpenASRV1.0\\EtriOpenASR\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\jjnet\\AndroidStudioProjects\\EtriOpenASRV1.01\\EtriOpenASRV1.0\\EtriOpenASR\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
